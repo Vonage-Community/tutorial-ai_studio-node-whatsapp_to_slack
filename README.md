@@ -28,4 +28,4 @@ npm install express axios body-parser dotenv
   * Inbound transfer EP should route to '{YOUR_TUNNEL_URL}/inbound'
 6. Publish your agent with a Vonage Virtual Number
 7. Start your application in a second terminal tab by running `node server.js`
-8. Try out your new Customer Support system via SMS and Slack!
+8. Try out your new Customer Support system via WhatsApp and Slack!
