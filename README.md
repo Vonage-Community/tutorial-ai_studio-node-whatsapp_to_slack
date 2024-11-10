@@ -23,7 +23,7 @@ npm install express axios body-parser dotenv
   * Enable Interactivity and create a "Start a ticket" shortcut at the endpoint: '{YOUR_TUNNEL_URL}/slack/start'
   * Create a Slash command for '/reply' at the endpoint '{YOUR_TUNNEL_URL}/slack/message'
   * Create a Slash command for '/close_ticket' at the endpoint '{YOUR_TUNNEL_URL}/slack/end'
-5. Create an AI Studio SMS Agent that uses the [Live Agent Routing Node](https://studio.docs.ai.vonage.com/sms/nodes/actions/live-agent-routing). Configure the following endpoints:
+5. Create an AI Studio WhatsApp Agent that uses the [Live Agent Routing Node](https://studio.docs.ai.vonage.com/sms/nodes/actions/live-agent-routing). Configure the following endpoints:
   * The Start Connection EP should route to '{YOUR_TUNNEL_URL}/start'
   * Inbound transfer EP should route to '{YOUR_TUNNEL_URL}/inbound'
 6. Publish your agent with a Vonage Virtual Number
